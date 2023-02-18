@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "Khushi2402.github.io",
+  "homepage": "https://Khushi2402.github.io",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.15",
