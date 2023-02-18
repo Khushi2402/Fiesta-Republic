@@ -51,16 +51,6 @@ const Navbar = () => {
               </Link>
             </li>
             <li className='border-b hover:underline'>
-              <Link to='events' smooth={true} duration={500}>
-                Events
-              </Link>
-            </li>
-            <li className='border-b hover:underline'>
-              <Link to='gallery' smooth={true} duration={500}>
-                Gallery
-              </Link>
-            </li>
-            <li className='border-b hover:underline'>
               <Link to='about' smooth={true} duration={500}>
                 About Us
               </Link>

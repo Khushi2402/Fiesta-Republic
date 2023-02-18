@@ -16,18 +16,18 @@ const About = () => {
       <div class='p-10 img-container grid md:grid-cols-3 m-auto justify-centerw-auto h-auto'>
         <div className='pb-2'>
         <img src={founder} className='justify-center justify-self-center mx-auto' alt="" />
-        <h1 className='text-lg'>Sumit Kapasi</h1>
-        <p>Founder</p>
+        <h1 className='text-lg'>Founder</h1>
+
         </div>
         <div className='pb-2'>
         <img src={co1} className='justify-center justify-self-center mx-auto' alt="" />
-        <h1 className='text-lg'>Henry</h1>
-        <p>Co-Founder</p>
+        <h1 className='text-lg'>Co-Founder</h1>
+
         </div>
         <div className='pb-2'>
         <img src={co2} className='justify-center justify-self-center mx-auto' alt="" />
-        <h1 className='text-lg'>Sumit Kapasi</h1>
-        <p>Co-Founder</p>
+        <h1 className='text-lg'>Co-Founder</h1>
+
         </div>  
       </div>
       </div>

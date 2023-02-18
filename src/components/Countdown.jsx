@@ -43,9 +43,10 @@ function Countdown() {
     });
   
     return (
-      <div className="Countdown">
-        <div>
+      <div name='home' className="Countdown">
+        <div className='pt-20'>
             <h1 className='p-10'>The wait is almost over. Get ready to be amazed!</h1>
+            
         </div>
         <Clock
           timerDays={timerDays}
