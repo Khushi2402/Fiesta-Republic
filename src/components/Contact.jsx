@@ -8,19 +8,19 @@ const Contact = () => {
       <div className='grid md:grid-cols-3 divide-x divide-black pt-10'>
         <div>
             <h1 className='text-xl font-normal pb-2'>PHONE</h1>
-            <p className='font-bold pb-6'>+91 8982568710</p>
+            <p className='font-bold pb-6'>+91 7738123047</p>
         </div>
         <div>
             <h1 className='text-xl font-normal pb-2'>E-MAIL</h1>
-            <p className='font-bold pb-6'>fiestarepublic@gmail.com</p>
+            <p className='font-bold pb-6'>itsfiestarepublic@gmail.com</p>
         </div>
         <div>
             <h1 className='text-xl font-normal pb-2'>SOCIALS</h1>
             <div className=' flex justify-center'>
-              <a href='https://www.instagram.com/'>
+              <a href='https://instagram.com/itsfiestarepublic?igshid=YmMyMTA2M2Y='>
                 <BsInstagram className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
-              <a href='https://twitter.com/'>
+              <a href='https://twitter.com/FiestaRepublic?t=VeIxvIRC9bRSKdHOZi2MGQ&s=09'>
                 <BsTwitter className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
               <a href='https://web.whatsapp.com/'>

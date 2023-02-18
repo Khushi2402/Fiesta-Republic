@@ -15,17 +15,17 @@ const About = () => {
       <div class='card'>
       <div class='p-10 img-container grid md:grid-cols-3 m-auto justify-centerw-auto h-auto'>
         <div className='pb-2'>
-        <img src={founder} className='justify-center justify-self-center mx-auto' alt="" />
+        <img src={founder} className=' px-10 justify-center justify-self-center mx-auto' alt="" />
         <h1 className='text-lg'>Founder</h1>
 
         </div>
         <div className='pb-2'>
-        <img src={co1} className='justify-center justify-self-center mx-auto' alt="" />
+        <img src={co1} className='px-10 justify-center justify-self-center mx-auto' alt="" />
         <h1 className='text-lg'>Co-Founder</h1>
 
         </div>
         <div className='pb-2'>
-        <img src={co2} className='justify-center justify-self-center mx-auto' alt="" />
+        <img src={co2} className='px-10 justify-center justify-self-center mx-auto' alt="" />
         <h1 className='text-lg'>Co-Founder</h1>
 
         </div>  

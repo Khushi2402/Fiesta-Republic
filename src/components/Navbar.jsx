@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='border-b border-black flex w-full bg-white justify-between items-center h-20 pl-4 pr-4 sticky top-0 z-10'>   
       <div>
         <Link to='home' smooth={true} duration={500}>
-        <img src={fr} className={logo ? 'hidden' : 'block pt-2 w-20- h-20 cursor-pointer'} alt="logo" />
+        <img src={fr} className={logo ? 'hidden' : 'block pt-2 w-20- h-20 cursor-pointer p-4'} alt="logo" />
         </Link>
       </div>
       <ul className='hidden md:flex'>
