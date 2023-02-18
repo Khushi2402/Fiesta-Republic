@@ -1,17 +1,35 @@
 import React from 'react'
 import bgImg from '../assets/about.jpg'
+import founder from '../assets/founder.png'
+import co1 from '../assets/co1.png'
+import co2 from '../assets/co2.png'
 
 const About = () => {
   return (
     <div name='about'>
-      <h1 className='text-2xl pt-20'>About</h1>
-        <div className='grid md:grid-cols-2 max-w-[1340px] m-10'>
-            <div className='flex flex-col justify-center md:items-end w-full px-10'>
-              <p className='text-justify'>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            </div>
-            <div className='flex flex-col justify-center md:items-end w-full px-8'>
-                <img src={bgImg} className='rounded-lg' alt="about" />
-            </div>
+      <h1 className='text-2xl pt-20'>About Us</h1>
+      <p className='w-full px-10 pt-10 text-xl underline underline-offset-auto font-semibold'>Creating unforgettable experiences, one event at a time.</p>
+      <div className='flex justify-center md:items-end w-full px-10 pt-8'>
+        <p className='text-justify text-xl'>We don't just plan events, we orchestrate experiences that evoke emotions, foster connections, and create memories that last a lifetime.</p>
+      </div>
+      <div class='card'>
+      <div class='p-10 img-container grid md:grid-cols-3 m-auto justify-centerw-auto h-auto'>
+        <div className='pb-2'>
+        <img src={founder} className='justify-center justify-self-center mx-auto' alt="" />
+        <h1 className='text-lg'>Sumit Kapasi</h1>
+        <p>Founder</p>
+        </div>
+        <div className='pb-2'>
+        <img src={co1} className='justify-center justify-self-center mx-auto' alt="" />
+        <h1 className='text-lg'>Henry</h1>
+        <p>Co-Founder</p>
+        </div>
+        <div className='pb-2'>
+        <img src={co2} className='justify-center justify-self-center mx-auto' alt="" />
+        <h1 className='text-lg'>Sumit Kapasi</h1>
+        <p>Co-Founder</p>
+        </div>  
+      </div>
       </div>
     </div>
   )

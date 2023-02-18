@@ -17,13 +17,13 @@ const Contact = () => {
         <div>
             <h1 className='text-xl font-normal pb-2'>SOCIALS</h1>
             <div className=' flex justify-center'>
-              <a href='https://www.instagram.com/'>
+              <a href='https://instagram.com/itsfiestarepublic?igshid=YmMyMTA2M2Y='>
                 <BsInstagram className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
-              <a href='https://twitter.com/'>
+              <a href='https://twitter.com/FiestaRepublic?t=VeIxvIRC9bRSKdHOZi2MGQ&s=09'>
                 <BsTwitter className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
-              <a href='https://web.whatsapp.com/'>
+              <a href='https://wa.link/03vkpf'>
                 <BsWhatsapp className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
             </div>
