@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div name='about'>
       <h1 className='text-2xl pt-20'>About Us</h1>
-      <p className='w-full px-10 pt-10 text-xl underline underline-offset-auto font-semibold'>Creating unforgettable experiences, one event at a time.</p>
+      <p className='w-full px-10 pt-10 text-xl font-semibold'>Creating unforgettable experiences, one event at a time.</p>
       <div className='flex justify-center md:items-end w-full px-10 pt-8'>
         <p className='text-justify text-xl'>We don't just plan events, we orchestrate experiences that evoke emotions, foster connections, and create memories that last a lifetime.</p>
       </div>
