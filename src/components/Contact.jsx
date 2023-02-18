@@ -36,7 +36,7 @@ const Contact = () => {
                 <h1 className='text-xl font-semibold'>Subscribe to our Newsletter</h1>
                 <p className=''>Subscribe to our Newsletter to get updates on all the exclusive events</p>
                 <div>
-                <input text='text' placeholder='Your email address' className=' border-2 rounded-xl w-auto md:w-16 lg:w-32 px-2'></input>
+                <input text='text' placeholder='Your email address' className=' border-2 rounded-xl w-48 px-2'></input>
                 </div>
                 <button className='rounded-xl'>Subscribe</button>
                 <p className='text-sm  underline underline-offset-auto hover:font-semibold cursor-pointer'>No thanks</p>
