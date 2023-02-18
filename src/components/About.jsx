@@ -10,7 +10,7 @@ const About = () => {
       <h1 className='text-2xl pt-20'>About Us</h1>
       <p className='w-full px-10 pt-10 text-xl font-semibold'>Creating unforgettable experiences, one event at a time.</p>
       <div className='flex justify-center md:items-end w-full px-10 pt-8'>
-        <p className='text-justify text-xl'>We don't just plan events, we orchestrate experiences that evoke emotions, foster connections, and create memories that last a lifetime.</p>
+        <p className=' text-xl'>We don't just plan events, we orchestrate experiences that evoke emotions, foster connections, and create memories that last a lifetime.</p>
       </div>
       <div class='card'>
       <div class='p-10 img-container grid md:grid-cols-3 m-auto justify-centerw-auto h-auto'>
