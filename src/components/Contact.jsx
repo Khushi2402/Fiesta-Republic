@@ -23,7 +23,7 @@ const Contact = () => {
               <a href='https://twitter.com/FiestaRepublic?t=VeIxvIRC9bRSKdHOZi2MGQ&s=09'>
                 <BsTwitter className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
-              <a href='https://wa.me/917738123047?text='>
+              <a href='https://wa.me/917755886047?text='>
                 <BsWhatsapp className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
             </div>
