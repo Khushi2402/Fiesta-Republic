@@ -5,9 +5,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Countdown from './components/Countdown';
-import { Analytics } from '@vercel/analytics/react';
 
-function App() {
+function App() {   
   return (
     <div className="App">
       <Navbar />
