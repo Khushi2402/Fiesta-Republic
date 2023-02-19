@@ -1,7 +1,42 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {BsInstagram, BsWhatsapp, BsTwitter} from 'react-icons/bs'
 
 const Contact = () => {
+
+  const [userData, setUserData] = useState({
+    email: ""
+  });
+
+  let name, value;
+  const postUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({ ...userData, [name]: value});
+  };
+
+  //connect with firebase
+  const submitData = async(event) => {
+    event.preventDefault();
+    const { email } = userData;
+    const res = fetch('https://fiesta-d0c19-default-rtdb.firebaseio.com/userDataRecords.json', 
+    {
+      method: "POST",
+      headers: {
+        "Content-Type" : "application/json",
+      },
+      body:JSON.stringify({
+        email
+      }),
+    });
+
+    if(res) {
+      setUserData({
+        email: ""
+      })
+    }
+  }
+
   return (
     <div name='contact'>
       <h1 className='text-2xl pt-10'>Contact Us</h1>
@@ -35,11 +70,17 @@ const Contact = () => {
             <div className='flex flex-col items-center space-y-4'>
                 <h1 className='text-xl font-semibold'>Subscribe to our Newsletter</h1>
                 <p className=''>Subscribe to our Newsletter to get updates on all the exclusive events</p>
-                <div>
-                <input text='text' placeholder='Your email address' className=' border-2 rounded-xl w-48 px-2'></input>
-                </div>
-                <button className='rounded-xl'>Subscribe</button>
-                <p className='text-sm  underline underline-offset-auto hover:font-semibold cursor-pointer'>No thanks</p>
+                <form method='POST'>
+                  <div className='pb-2'>
+                    <input text='text' 
+                    name="email"
+                    placeholder='Your email address' 
+                    value={userData.email}
+                    onChange={postUserData}
+                    className=' border-2 rounded-xl w-48 px-2'></input>
+                  </div>
+                  <button className='rounded-xl' onClick={submitData}>Subscribe</button>
+                </form>
             </div>
         </div>
       </div>
